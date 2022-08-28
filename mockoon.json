@@ -1,0 +1,72 @@
+{
+    "uuid": "ba3402c8-fc17-4220-b638-aa5c230bb2d4",
+    "lastMigration": 22,
+    "name": "FlutterBLoC8",
+    "endpointPrefix": "",
+    "latency": 0,
+    "port": 3002,
+    "hostname": "0.0.0.0",
+    "routes": [
+        {
+            "uuid": "887adb1e-dd60-456a-b835-488f56605f0d",
+            "documentation": "",
+            "method": "get",
+            "endpoint": "products",
+            "responses": [
+                {
+                    "uuid": "d2076fa8-bf76-4da2-b43b-9872a88e3a58",
+                    "body": "[\n  {\n    \"id\": 1,\n    \"name\": \"NVDIA RTX 3060 TI\",\n    \"price\": 300,\n    \"image\": \"images/p1.jpg\"\n  },\n  {\n    \"id\": 2,\n    \"name\": \"NVDIA RTX 3070\",\n    \"price\": 400,\n    \"image\": \"images/p2.jpg\"\n  },\n  {\n    \"id\": 3,\n    \"name\": \"NVDIA RTX 3070 TI\",\n    \"price\": 430,\n    \"image\": \"images/p3.jpg\"\n  },\n  {\n    \"id\": 4,\n    \"name\": \"NVDIA GTX 1660 Super\",\n    \"price\": 250,\n    \"image\": \"images/p4.jpg\"\n  }\n]",
+                    "latency": 2500,
+                    "statusCode": 200,
+                    "label": "",
+                    "headers": [
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "filePath": "",
+                    "sendFileAsBody": false,
+                    "rules": [],
+                    "rulesOperator": "OR",
+                    "disableTemplating": false,
+                    "fallbackTo404": false,
+                    "default": true
+                }
+            ],
+            "enabled": true,
+            "responseMode": null
+        }
+    ],
+    "proxyMode": false,
+    "proxyHost": "",
+    "proxyRemovePrefix": false,
+    "tlsOptions": {
+        "enabled": false,
+        "type": "CERT",
+        "pfxPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "caPath": "",
+        "passphrase": ""
+    },
+    "cors": true,
+    "headers": [
+        {
+            "key": "Content-Type",
+            "value": "application/json"
+        }
+    ],
+    "proxyReqHeaders": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ],
+    "proxyResHeaders": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ]
+}
